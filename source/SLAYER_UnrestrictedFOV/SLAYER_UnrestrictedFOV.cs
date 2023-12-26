@@ -82,6 +82,7 @@ public class SLAYER_UnrestrictedFOV : BasePlugin, IPluginConfig<ConfigSpecials>
         }
         return true;
     }
+    // Thanks "yarukon (59 61 72 75 6B 6F 6E)" Discord member
     private static MemoryFunctionVoid<nint, nint, int, short, short> _StateChanged = new(@"\x55\x48\x89\xE5\x41\x57\x41\x56\x41\x55\x41\x54\x53\x89\xD3");
     private static MemoryFunctionVoid<nint, int, long> _NetworkStateChanged = new(@"\x4C\x8B\x07\x4D\x85\xC0\x74\x2A\x49\x8B\x40\x10");
     public int FindSchemaChain(string classname) => Schema.GetSchemaOffset(classname, "__m_pChainEntity");
