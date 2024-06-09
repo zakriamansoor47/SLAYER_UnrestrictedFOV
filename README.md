@@ -16,6 +16,8 @@ This simple plugin allow players to Change their FOV. Ported this plugin [Unrest
 
 **2.** Instantly Update FOV.
 
+**3.** Lang Support.
+
 ## Commands:
 ```
 !fov - To Reset FOV
@@ -26,6 +28,7 @@ This simple plugin allow players to Change their FOV. Ported this plugin [Unrest
 ```
 {
   "PluginEnabled": true,                // Enable/Disable plugin. (false = Disabled, true = Enabled)
+  "ForceFOVOnSpawn": false,             // Force Set FOV on Player Spawn
   "FOVMin": 20,                         // Minimum FOV that Player can set
   "FOVMax": 130,                        // Maximum FOV that Player can set
   "ConfigVersion": 1                    // Don't Change this
